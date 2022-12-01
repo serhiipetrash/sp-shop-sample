@@ -15,6 +15,13 @@
         <p class="text-white">{{product.title}}</p>
         <p class="text-white">{{(product.price * product.quantity)}} coins.</p>
       </div>
+
+      <!-- cart total -->
+      <div class="text-right pt-4 mt-4 border-t-2">
+        <span class="text-white">Total amount to pay: </span>
+        <span class="text-secondary">{{ cartStore.cartTotal }} Silver Coins</span>
+      </div>
+      
     </div>
 
     <div v-else>
