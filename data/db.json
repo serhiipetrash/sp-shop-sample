@@ -15,14 +15,6 @@
       "img": "/img/crystal.png",
       "id": 7,
       "quantity": 1
-    },
-    {
-      "title": "Exploding Gem",
-      "price": 50,
-      "description": "Throw at the ground to explode.",
-      "img": "/img/gem.png",
-      "id": 10,
-      "quantity": 1
     }
   ],
   "products": [
