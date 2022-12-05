@@ -9,7 +9,14 @@ export const useCartStore = defineStore('cart', {
       return this.cart.reduce((total, item) => {
         return total + (item.price * item.quantity)
       }, 0)
+    },
+
+    numberOfProducts() {
+      return this.cart.reduce((total, item) => {
+        return total + item.quantity
+      }, 0)
     }
+
   },
   actions: {
     async getCart() {
@@ -81,6 +88,6 @@ export const useCartStore = defineStore('cart', {
         })
       } 
     },
-    
+
   }
 })
