@@ -47,6 +47,14 @@
       "img": "/img/axe.png",
       "id": 9,
       "quantity": 1
+    },
+    {
+      "title": "Mysterious Key",
+      "price": 500,
+      "description": "Opens a chest sealed by darkness.",
+      "img": "/img/key.png",
+      "id": 11,
+      "quantity": 1
     }
   ],
   "products": [
