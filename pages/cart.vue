@@ -13,8 +13,10 @@
       >
         <img :src="product.img" :alt="product.title">
         <p class="text-white">{{product.title}}</p>
+
         <!-- product quantity -->
         <ProductQuantity :product="product" />
+        
         <p class="text-white">{{(product.price * product.quantity)}} coins.</p>
 
         <!-- delete -->
